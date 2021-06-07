@@ -1,38 +1,264 @@
-.App {
+/* main styles ==========================================*/
+/* ======================================================*/
+/* site background color */
+.siteBody {
+  height: 100%;
+  width: 100%;
+  background-color: #E4E5E6;
+}
+
+/* site navigation bar */
+#siteNavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+}
+
+
+/* sticky footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: slategray;
+  color: white;
+  text-align: center;
+  z-index: 3;
+}
+
+/* white section cards with shaddow border */
+.sectionContainer {
+  background-color: ghostwhite;
+  min-height: 120px;
+  margin: 10px 10px 0px 10px;
+  box-shadow: 4px 3px 3px darkgray;
+  border-left: slategray;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+/* title bar for section elements */
+.sectionHeading {
+  font-size: 18px;
+  min-height: 24px;
+  font-weight: bold;
+  background-color: lightsteelblue;
+  color: darkslategrey;
+  border-color: steelblue;
+  border-style: solid;
+  border-width: 1px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: auto;
+  display: block;
+  text-indent: 10px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+/* styling for text elements in section */
+.sectionText {
+  text-indent: 10px;      
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.sectionBulletText {
+  text-indent: 10px;      
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Index.html styles ==========================================*/
+/* ============================================================*/
+
+
+
+.vbaLineText {
+  text-indent: 10px;      
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: firebrick;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 5px;    
+}
+
+/* rounded border for profile picture */
+.profilePicture {
+  height: 100px;
+  width: 205px;
+  float: left;      
+  margin: 5px 10px 5px 10px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.skillsContainer {
+  background-color: whitesmoke;
+  min-height: 120px;
+  margin: 10px 10px 0px 10px;
+  box-shadow: 4px 3px 3px darkgray;
+  border-left: slategray;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+.skillsCard {
+  background-color: ghostwhite;
+  min-height: 120px;
+  width: 20%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightsteelblue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* 
+media query to adjust skill card with based on resolution */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 991px) {  
+
+  .skillsCard {
+      min-height: 70px;
+      width: 100%;
+      margin: 0 auto;                
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+
+/* word-wrap: break-word; */
+.skillsTitle {      
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: navy;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 5px; 
+  
+}
+
+.skillsCaption {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 5px; 
+  word-wrap: break-word;
+}
+
+.appThumbnail {
+  height: 200px;
+  width: 300px;
+  margin: 20px 10px 20px 10px;
+  border: 10px;
+  float: left;
+  border-style: solid;
+  border-color: black;
+}
+
+/* contact page styles ==========================================*/
+/* ======================================================*/
+
+.contactInput {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px;
+  justify-items: center;
+}
+
+.buttonCard {
+  text-align: center;
+}
+
+.submitBtn {
+  min-height: 50px;
+  min-width: 170px;
+  
+}
+
+
+/* portfolio page styles ==========================================*/
+/* ======================================================*/
+
+
+.galleryHeading {
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+/* .galleryRow {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+} */
+
+.galleryCell {
+  height: 340px;
+  width: 50%;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.galleryThumbnail {
+  background-color: ghostwhite;
+  width: 265px;
+  height: 300px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}    
+
+  /* adjusts gallery cell width and alignment for mobile displays */
+@media screen and (max-width: 767px) {  
+
+  .galleryCell {
+      height: 130;
+      width: 100%;
+      margin: 0 auto;                
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.galleryItemTitle {
+  font-size: 14px;
+  text-decoration-line: underline;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.galleryItemSubtitle {
+  font-size: 12px;
+  margin-top: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.galleryImage {
+  height: 200px;
+  width: 263px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
 }
