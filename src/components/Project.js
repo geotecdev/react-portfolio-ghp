@@ -9,6 +9,7 @@ function Project(props) {
                 <img className="galleryImage" src={props.projectThumbnail} alt="thumbnail with the import page of the TiPS to Viewpoint payroll processing app" />
                     <p className="galleryItemTitle">{props.projectTitle}</p>
                     <p className="galleryItemSubtitle">{props.projectDescription}</p>
+                    <a className="btn btn-info" href={props.githubRepoLink}>Link to Repo</a>
                 </figure>
             </div>
         </div>
