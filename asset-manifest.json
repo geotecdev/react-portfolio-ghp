@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-ghp/static/css/main.fc31124c.chunk.css",
+    "main.js": "/react-portfolio-ghp/static/js/main.a2d5943b.chunk.js",
+    "main.js.map": "/react-portfolio-ghp/static/js/main.a2d5943b.chunk.js.map",
+    "runtime-main.js": "/react-portfolio-ghp/static/js/runtime-main.bd9e73a7.js",
+    "runtime-main.js.map": "/react-portfolio-ghp/static/js/runtime-main.bd9e73a7.js.map",
+    "static/js/2.434b2a6a.chunk.js": "/react-portfolio-ghp/static/js/2.434b2a6a.chunk.js",
+    "static/js/2.434b2a6a.chunk.js.map": "/react-portfolio-ghp/static/js/2.434b2a6a.chunk.js.map",
+    "static/js/3.e1a9745f.chunk.js": "/react-portfolio-ghp/static/js/3.e1a9745f.chunk.js",
+    "static/js/3.e1a9745f.chunk.js.map": "/react-portfolio-ghp/static/js/3.e1a9745f.chunk.js.map",
+    "index.html": "/react-portfolio-ghp/index.html",
+    "static/css/main.fc31124c.chunk.css.map": "/react-portfolio-ghp/static/css/main.fc31124c.chunk.css.map",
+    "static/js/2.434b2a6a.chunk.js.LICENSE.txt": "/react-portfolio-ghp/static/js/2.434b2a6a.chunk.js.LICENSE.txt",
+    "static/media/asp-dot-net-img.77ff54c0.PNG": "/react-portfolio-ghp/static/media/asp-dot-net-img.77ff54c0.PNG",
+    "static/media/azure-img.ce4dd033.PNG": "/react-portfolio-ghp/static/media/azure-img.ce4dd033.PNG",
+    "static/media/gallery-img-1.1209a572.PNG": "/react-portfolio-ghp/static/media/gallery-img-1.1209a572.PNG",
+    "static/media/gallery-img-2.51ce5654.PNG": "/react-portfolio-ghp/static/media/gallery-img-2.51ce5654.PNG",
+    "static/media/gallery-img-3.52fd3e40.PNG": "/react-portfolio-ghp/static/media/gallery-img-3.52fd3e40.PNG",
+    "static/media/gallery-img-4.546baf23.PNG": "/react-portfolio-ghp/static/media/gallery-img-4.546baf23.PNG",
+    "static/media/gallery-img-5.1a4fe863.PNG": "/react-portfolio-ghp/static/media/gallery-img-5.1a4fe863.PNG",
+    "static/media/gallery-img-6.2753bf76.png": "/react-portfolio-ghp/static/media/gallery-img-6.2753bf76.png",
+    "static/media/logo.6ce24c58.svg": "/react-portfolio-ghp/static/media/logo.6ce24c58.svg",
+    "static/media/matplotlib-img.9d19d6a6.PNG": "/react-portfolio-ghp/static/media/matplotlib-img.9d19d6a6.PNG",
+    "static/media/office-img.478606f4.png": "/react-portfolio-ghp/static/media/office-img.478606f4.png",
+    "static/media/profile-picture.a068702e.jpg": "/react-portfolio-ghp/static/media/profile-picture.a068702e.jpg",
+    "static/media/wpf-img.6a2d66f8.PNG": "/react-portfolio-ghp/static/media/wpf-img.6a2d66f8.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd9e73a7.js",
+    "static/js/2.434b2a6a.chunk.js",
+    "static/css/main.fc31124c.chunk.css",
+    "static/js/main.a2d5943b.chunk.js"
+  ]
+}
